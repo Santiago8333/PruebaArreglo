@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pruebaarreglo;
 import java.util.Scanner;
 /**
@@ -38,7 +34,7 @@ public class Arreglo {
 		}
 		promedio = promedio / enteros.length;
                 System.out.println("el promedio del arreglo  "+promedio);
-	//	return promedio;
+	
 
 	}
       
@@ -49,7 +45,7 @@ public class Arreglo {
            
         
                System.out.println("arreglo bidimensional y irregular");
-      //  int arr [][] = { {1, 2}, {3, 4, 5}, {6, 7}, { 8, 9, 10, 11} };
+
    
            
            
@@ -122,7 +118,7 @@ public class Arreglo {
         
                for(int q=0;q<vocale.length();q++){
                    if((vocale.charAt(q) == caracter)){
-              // if((vocale.charAt(x)=='a')){
+              
                 
               nmVocales++;  
                    
